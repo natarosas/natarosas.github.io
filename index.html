@@ -16,95 +16,111 @@
     
     <style>
       body {
-        height: 100%;
-        width: 100%;
-        font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+      font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+      margin 0;
+    }
+    
+  header {
+      position: static;
+      width: 100%;
+      height: 650px;
+      background-size: cover;
+      background-position: center;
+      background-image: url('https://raw.githubusercontent.com/natarosas/natarosas.github.io/234aa7208a4c7cf16f56ccd81be01e07c714eca6/wallpaper.jpg');
+      text-align: center;
+      color: white
+    }
+    header .header-content {
+      position: relative;
+      text-align: center;
+      padding: 100px 15px 100px;
+      width: 100%;
+    }
+    header .header-content .header-content-inner h1 {
+      font-weight: 900;
+      text-transform: uppercase;
+      margin-top: 120px;
+    }
+    header .header-content .header-content-inner hr {
+      margin: 30 px auto;
+    }
+    header .header-content .header-content-inner p {
+      font-weight: 300;
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 16px;
+      margin-bottom: 50px;
+    }
+    @media (min-width: 768px){
+      header {
+        min-height: 100%;
       }
-      hr {
-       border-color: #1E90FF;
-       border-width: 3px;
-       max-width: 50px;
-       }
-      hr.light {
-       border-color: white;
-       posicion: static;
+      header .header-content .header-content-inner {
+        margin-left: auto;
+        margin-right: auto;
       }
-      h1,h2,h3,h4,h5,h6 {
-     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+      header .header-content .header-content-inner h1 {
+        font-size: 50px;
       }
-      p {
-     font-size: 16px;
-     line-height: 1.5;
-     margin-bottom: 20px;
+      header .header-content .header-content-inner h2 {
+        font-size: 30px;
       }
- 
+    }
+    hr {
+      border-color: #1E90FF;
+      border-width: 3px;
+      max-width: 50px;
+    }
+    hr.light {
+      border-color: white;
+      position: static;
+      max-width: 50px;
+    }
+    h1,h2,h3,h4,h5,h6 {
+      font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    }
+    
     .bg-primary {
-    background-color: #1E90FF;
-    text-align: center;
-    height: 300px;
-    font-size: 23px;
+      background-color: #1E90FF;
+      height: 100%;
+      font-size: 23px;
+      position: static;
+      margin: auto;
+      padding: 20px 20px 20px 20px;
     }
     .bg-primary h2 {
-    padding: 15px;
+      text-align: right;
+      font-size: 70px;
+      margin-right: 40px;
     }
-
+    .bg-primary img {
+      position: static;
+      height=100%;
+      width=296px;
+      margin-top: 45px
+      margin-left: 40px;
+      margin-right: 15px;
+      float: left;
+      float:top;
+    }
+    .bg-primary p {
+      display: block;
+      font-family: 'Alegreya Sans', sans-serif;
+      margin-top: 45px;
+      margin-left: 15px;
+      text-align: justify;
+      text-justify: inter-word;
+      font-size: 20px;
+    } 
     .bg-dark {
-    background-color: #222222;
-    color: white;
-    text-align: center;
-    margin: 0;
-    height: 300px;
+      background-color: #222222;
+      color: white;
+      text-align: center;
+      margin: 0;
+      height: 300px;
     }
-
     .text-faded {
     color: rgba(255, 255, 255, 0.7);
     }
-    
-    header {
-  position: static;
-  width: 100%;
-  height: 650px;
-  background-size: cover;
-  background-position: center;
-  background-image: url('https://raw.githubusercontent.com/natarosas/natarosas.github.io/234aa7208a4c7cf16f56ccd81be01e07c714eca6/wallpaper.jpg');
-  text-align: center;
-  color: white
-}
-header .header-content {
-  position: relative;
-  text-align: center;
-  padding: 100px 15px 100px;
-  width: 100%;
-}
-header .header-content .header-content-inner h1 {
-  font-weight: 900;
-  text-transform: uppercase;
-  margin-top: 120px;
-}
-header .header-content .header-content-inner hr {
-  margin: 30 px auto;
-}
-header .header-content .header-content-inner p {
-  font-weight: 300;
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 16px;
-  margin-bottom: 50px;
-}
-@media (min-width: 768px){
-  header {
-    min-height: 100%;
-  }
-  header .header-content .header-content-inner {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  header .header-content .header-content-inner h1 {
-    font-size: 50px;
-  }
-  header .header-content .header-content-inner h2 {
-    font-size: 30px;
-  }
-}
 
 .service-box {
   max-width: 700px;
@@ -316,12 +332,12 @@ body {
     </header>
 
 
+
     <section class="bg-primary" id="about">
         <div class="container">
-            <h1>Hi!</h1>
-            <img src="https://github.com/natarosas/natarosas.github.io/blob/master/2016-08-04%2015.55.14.png?raw=true" height="384px" width="216px">
-            <hr class="light">
-            <p> Soy una mujer apasionada por la ciencia y la programación. Actualmente me desempeño como Front End Rails Developer.</p>
+            <h2>Hi!</h2>
+            <img src="https://github.com/natarosas/natarosas.github.io/blob/master/2016-08-04%2015.55.14.png?raw=true">
+            <p>I'm a passionate woman for <strong>computer programming</strong> and <strong>neuroscience</strong>.<br> I love programming and I take it as an art, that's why I dream with building websites and apps that could be a virtual artwork. <br>  I'm looking to grow personally and professionally and I want to be involved in problem solving projects and join an amazing team.<br> Feel free to contact me! </p>
         </div>
     </section>
 
