@@ -9,14 +9,15 @@
 
     <title>Natalia Rosas - Portafolio</title>
  <!-- Fuentes -->
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Alegreya+Sans|Hammersmith+One|Open+Sans+Condensed:300" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Dancing+Script|Luckiest+Guy|Merienda+One|Pacifico|Passion+One" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     
     <style>
-     body {
+    
+    body {
       font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
       margin 0;
       width: 100%;
@@ -66,7 +67,7 @@
         font-size: 90px;
       }
       header .header-content .header-content-inner h2 {
-        font-size: 45px;
+        font-size: 50px;
       }
     }
     hr {
@@ -82,50 +83,78 @@
       position: relative;
       background-color: #1E90FF;
       margin: auto;
-      height: 533.8px;
-      padding: 20px 20px 20px 0;
+      height: 557.2872px;
+      padding: 0;
+      width: 100%;
     }
     .bg-primary h2 {
       position: absolute;
       top: 15px;
-      right: 80px;
+      right: 280px;
       font-size: 100px;
       margin: 20px;
       color: white;
     }
-    .bg-primary img {
+    .bg-primary .container .nata {
       position: absolute;
       left: 0;
       top: 0;
       bottom: 0;
-      height: 533.8px;
-      width: 416.5px;
+      height: 557.2872px;
+      width: 36%;
       float: left;
     }
+    
     .bg-primary h4 {
       font-family: 'Raleway', sans-serif;
-      font-size: 22px;
+      font-size: 28px;
       position: absolute;
       top: 145px;
-      left: 436.5px;
-      right: 20px;
+      left: 480px;
+      right: 30px;
     }
     .bg-primary p {
       position: absolute;
       font-family: 'Alegreya Sans', sans-serif;
       top: 267px;
-      left: 436.5px;
-      right: 20px;
+      left: 514px;
+      right: 90px;
       text-align: justify;
       text-justify: inter-word;
-      font-size: 20px;
+      font-size: 24px;
     } 
+    .bg-primary .container .bulb
+    {
+       position: absolute;
+       left: 670px;
+       bottom: 35px;
+       height: 70px;
+       width: 70px;
+    }
+     .bg-primary .container .laptop
+    {
+       position: absolute;
+       left: 779px;
+       bottom: 35px;
+       height: 70px;
+       width: 70px;
+    }
+    .bg-primary .container .brain
+    {
+       position: absolute;
+       left: 895px;
+       bottom: 35px;
+       height: 70px;
+       width: 70px;
+    }
+    
     .bg-dark {
       background-color: #222222;
       color: white;
       text-align: center;
       margin: 0;
       height: 300px;
+      padding: 40px 40px 40px 40px;
     }
     
     .text-faded {
@@ -133,22 +162,36 @@
     }
    
 
-.service-box {
-  max-width: 700px;
-  margin: 50px auto 0;
-}
-@media (min-width: 992px) {
-  .service-box {
-    margin: 20px auto 0;
-    text-align: center;
-  }
-}
-.portfolio-box {
+    .skills {
+      margin: 0;
+      padding: 50px 100px 50px 100px;
+      text-align: center;
+      max-width: 800px;
+      width: 100%;
+    }
+    .skills .header .section-heading {
+      font-family: 'Abril Fatface', cursive;
+      text-align: center;
+      font-size: 60px;
+    }
+    .skills .container h3{
+      font-family: 'Hammersmith One', sans-serif;
+      font-size: 40px;
+    }
+    .skills .container img{
+      margin-right: 30px;
+    }
+    .primary hr {
+      margin 30px;
+    }
+    
+    .portfolio-box {
   position: relative;
   display: block;
-  max-width: 650px;
+  max-width: 1000px;
   margin: 0 auto;
-}
+  padding: 0 35% 0 35%;
+  }
 .portfolio-box .portfolio-box-caption {
   color: white;
   opacity: 0;
@@ -157,7 +200,7 @@
   position: absolute;
   bottom: 0;
   text-align: center;
-  width: 100%;
+  width: 384px;
   height: 100%;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -197,62 +240,15 @@
     font-size: 22px;
   }
 }
-.btn-default {
-  color: #222222;
-  background-color: white;
-  border-color: white;
-  -webkit-transition: all 0.35s;
-  -moz-transition: all 0.35s;
-  transition: all 0.35s;
-}
-.btn-default:hover,
-.btn-default:focus,
-.btn-default.focus,
-.btn-default:active,
-.btn-default.active,
-.open > .dropdown-toggle.btn-default {
-  color: #222222;
-  background-color: #f2f2f2;
-  border-color: #ededed;
-}
-.btn-default:active,
-.btn-default.active,
-.open > .dropdown-toggle.btn-default {
-  background-image: none;
-}
-.btn-default.disabled,
-.btn-default[disabled],
-fieldset[disabled] .btn-default,
-.btn-default.disabled:hover,
-.btn-default[disabled]:hover,
-fieldset[disabled] .btn-default:hover,
-.btn-default.disabled:focus,
-.btn-default[disabled]:focus,
-fieldset[disabled] .btn-default:focus,
-.btn-default.disabled.focus,
-.btn-default[disabled].focus,
-fieldset[disabled] .btn-default.focus,
-.btn-default.disabled:active,
-.btn-default[disabled]:active,
-fieldset[disabled] .btn-default:active,
-.btn-default.disabled.active,
-.btn-default[disabled].active,
-fieldset[disabled] .btn-default.active {
-  background-color: white;
-  border-color: white;
-}
-.btn-default .badge {
-  color: white;
-  background-color: #222222;
-}
-.btn-primary {
-  color: white;
-  background-color: #1E90FF;
-  border-color: #1E90FF;
-  -webkit-transition: all 0.35s;
-  -moz-transition: all 0.35s;
-  transition: all 0.35s;
-}
+
+  .btn-primary {
+    color: white;
+    background-color: #1E90FF;
+    border-color: #1E90FF;
+    -webkit-transition: all 0.35s;
+    -moz-transition: all 0.35s;
+    transition: all 0.35s;
+    }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary.focus,
@@ -260,8 +256,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #ee4b28;
-  border-color: #ed431f;
+  background-color: #1E90FF;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -286,11 +281,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #F05F40;
-  border-color: #F05F40;
+  background-color: #1E90FF;
+  border-color: #1E90FF;
 }
 .btn-primary .badge {
-  color: #F05F40;
+  color: #1E90FF;
   background-color: white;
 }
 .btn {
@@ -306,234 +301,129 @@ fieldset[disabled] .btn-primary.active {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #222222;
+  background: #1E90FF;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background: #222222;
+  background: #1E90FF;
 }
 img::selection {
   color: white;
-  background: transparent;
+  background: tra
+  nsparent;
 }
 img::-moz-selection {
   color: white;
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #222222;
+  webkit-tap-highlight-color: #1E90FF;
 }
+    
     </style>
 
 </head>
 
 <body id="page-top">
-
-    <header>
+ <header>
         <div class="header-content">
             <div class="header-content-inner">
                 <h1 id="homeHeading">Natalia Monroy Rosas</h1>
                 <hr>
-                <h2>Full Stack Web Developer </h2>
                 <br>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Inicio</a>
+                <h2>Full Stack Web Developer</h2>
+                <br><br>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Start</a>
             </div>
         </div>
     </header>
 
 
-
     <section class="bg-primary" id="about">
         <div class="container">
+            <img class="nata" src="https://github.com/natarosas/natarosas.github.io/blob/master/2016-08-04%2015.55.14.png?raw=true">
             <h2>Hi!</h2>
-            <img src="https://github.com/natarosas/natarosas.github.io/blob/master/2016-08-04%2015.55.14.png?raw=true">
-            <p>I'm a passionate woman for <strong>computer programming</strong> and <strong>neuroscience</strong>.<br> I love programming and I take it as an art, that's why I dream with building websites and apps that could be a virtual artwork. <br>  I'm looking to grow personally and professionally and I want to be involved in problem solving projects and join an amazing team.<br> Feel free to contact me! </p>
-        </div>
+       <h4>I'm a passionate woman for Computer Programming and Neuroscience from Bogotá, Colombia </h4>
+            <p>I love programming and I take it as an art, that's why I dream with building websites and apps that could be a virtual artwork. <br>  I'm looking to grow personally and professionally and I want to be involved in problem solving projects and join an amazing team.<br></p>
+            <img class="bulb" src="https://github.com/natarosas/natarosas.github.io/blob/master/light-bulb-vector.png?raw=true">
+            <img class="laptop" src="https://github.com/natarosas/natarosas.github.io/blob/master/laptopv.png?raw=true">
+            <img class="brain" src="https://github.com/natarosas/natarosas.github.io/blob/master/brain-512.png?raw=true">
+        </div>  
     </section>
 
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">At Your Service</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-                        <h3>Sturdy Templates</h3>
-                        <p class="text-muted">Our templates are updated regularly so they don't break.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-                        <h3>Ready to Ship</h3>
-                        <p class="text-muted">You can use this theme as is, or you can make changes!</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-                        <h3>Up to Date</h3>
-                        <p class="text-muted">We update dependencies to keep things fresh.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-                        <h3>Made with Love</h3>
-                        <p class="text-muted">You have to make your websites with love these days!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section class="skills">
+        <div class=header>
+          <h2 class="section-heading">Skills</h2>
+          <hr class="primary">
+          </div>
+         <div class= container>
+            <h3>HTML5               CSS3              JavaScript</h3>
+            <img src="https://github.com/natarosas/natarosas.github.io/blob/master/html5.png?raw=true">
+            <img src="https://github.com/natarosas/natarosas.github.io/blob/master/css3.png?raw=true">
+            <img src="https://github.com/natarosas/natarosas.github.io/blob/master/js.png?raw=true">
+          </div>
     </section>
 
     <section class="no-padding" id="portfolio">
         <div class="container-fluid">
-            <div class="row no-gutter popup-gallery">
+           <div class="row no-gutter popup-gallery">
                 <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
+                    <a href="https://github.com/natarosas/natarosas.github.io/blob/master/andress.png?raw=true" class="portfolio-box">
+                        <img src="https://github.com/natarosas/natarosas.github.io/blob/master/andress.png?raw=true" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
+                             <div class="project-category text-faded">
+                                    Portfolio
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Andrés Lozano Fotografía
                                 </div>
                             </div>
                         </div>
                     </a>
-                </div>
+                  </div>
                 <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
+                    <a href="https://github.com/natarosas/natarosas.github.io/blob/master/virtual%20glasss.png?raw=true" class="portfolio-box">
+                        <img src="https://github.com/natarosas/natarosas.github.io/blob/master/virtual%20glasss.png?raw=true" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
+                            <div class="project-category text-faded">
+                                    Bussiness
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Virtual Glass
                                 </div>
                             </div>
                         </div>
                     </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
+                   </div>
+                     <div class="col-lg-4 col-sm-6">
+                    <a href="https://github.com/natarosas/natarosas.github.io/blob/master/arvejass.png?raw=true" class="portfolio-box">
+                        <img src="https://github.com/natarosas/natarosas.github.io/blob/master/arvejass.png?raw=true" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
+                               <div class="project-category text-faded">
+                                    Bussiness
                                 </div>
                                 <div class="project-name">
-                                    Project Name
+                                    Arvina, Distribuidora de Arveja 
                                 </div>
                             </div>
                         </div>
                     </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
+              </div>
+           </div>
+         </div>
     </section>
 
     <aside class="bg-dark">
         <div class="container text-center">
             <div class="call-to-action">
-                <h2>Free Download at Start Bootstrap!</h2>
-                <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Download Now!</a>
+                <h2>Contact</h2>
             </div>
         </div>
     </aside>
-
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
-                    <hr class="primary">
-                    <p>Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
-                </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>123-456-6789</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/creative.min.js"></script>
 
 </body>
 
