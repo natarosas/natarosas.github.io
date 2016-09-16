@@ -7,440 +7,187 @@
     <meta name="description" content="Natalia's Portfolio">
     <meta name="author" content="Natalia Monroy Rosas">
 
-    <title>Natalia Rosas - Portafolio</title>
+    <link href="css/style.css" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <title>Natalia Rosas - Portfolio</title>
     
     <!-- Fonts -->
  
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Alegreya+Sans|Amaranth|Hammersmith+One|Open+Sans+Condensed:300|Satisfy|Yantramanav" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Dancing+Script|Luckiest+Guy|Merienda+One|Pacifico|Passion+One" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    
     <!--Favicon-->
   
     <link rel="shortcut icon" href="https://raw.githubusercontent.com/natarosas/natarosas.github.io/master/favicon.ico" >
     <link rel="icon" type="image/gif" href="https://github.com/natarosas/natarosas.github.io/blob/master/animated_favicon1.gif?raw=true" >
 
-    <!--CSS-->
-
-    <style>
-      body {
-        font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
-        margin 0;
-        width: 100%;
-      }
-      header {
-        position: static;
-        width: 100%;
-        height: 650px;
-        background-size: cover;
-        background-position: center;
-        background-image: url('http://1.bp.blogspot.com/-idF1H-1YqMA/UPpl8eK8oRI/AAAAAAAAGTM/SjlrOObz6bc/s1600/tumblr_m96o5dI6Ts1qzs56do1_500.gif');
-        text-align: center;
-      }
-      header .header-content {
-        position: relative;
-        text-align: center;
-        padding: 100px 15px 100px;
-        width: 100%;
-      }
-      header .header-content .header-content-inner h1{
-        font-weight: 550;
-        font-size: 50px;
-        color: white;
-      }
-      header .header-content .header-content-inner h2 {
-        margin-top: 20px;
-        font-size: 35px;
-      }
-      header .header-content .header-content-inner hr {
-        margin: auto;
-      }
-      @media (min-width: 768px){
-        header {
-          min-height: 100%;
-        }
-        header .header-content .header-content-inner {
-          margin-left: auto;
-          margin-right: auto;
-        }
-        header .header-content .header-content-inner h1 {
-          font-size: 90px;
-        }
-        header .header-content .header-content-inner h2 {
-          font-size: 50px;
-        }
-      }
-      hr {
-        border-color: #1E90FF;
-        border-width: 3px;
-        max-width: 50px;
-      }
-      h1,h2,h3,h4,h5,h6 {
-        font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-      }
-    
-      .bg-primary {
-        position: relative;
-        background-color: #1E90FF;
-        margin: auto;
-        padding: 20px;
-        width: auto;
-        height: auto;
-      }
-      .bg-primary h2 {
-        font-size: 70px;
-        margin: 0 20px 20px 20px;
-        color: white;
-      }
-      .bg-primary .container .nata {
-        float: left;
-        margin-right: 20px;
-        margin-bottom: 20px;
-        height: 324px;
-        width: 227px;
-      } 
-      .bg-primary h4 {
-        font-family: 'Raleway', sans-serif;
-        font-size: 18px;
-      }
-      .bg-primary p {
-        font-family: 'Alegreya Sans', sans-serif;
-        text-align: justify;
-        text-justify: inter-word;
-        font-size: 14px;
-        margin-bottom: 23px;
-      } 
-      .bg-primary .container .drawnings img {
-        align-content: center;
-        height: 40px;
-        width: 40px;
-        margin-right: 12px;
-      }
-      @media (min-width: 768px) {
-        .bg-primary {
-          height: 100%;
-          padding: 80px;
-        }
-        .bg-primary h2 {
-          font-size: 100px;
-        }
-        .bg-primary p {
-          font-size: 25px;
-        }
-        .bg-primary h4 {
-          font-family: 'Raleway', sans-serif;
-          font-size: 34px;
-        }
-        .bg-primary .container .drawnings {
-          align-content: center;
-          text-align: center;
-        }
-        .bg-primary .container .drawnings img {
-          align-items: center;
-          height: 85px;
-          width: 85px;
-          margin-right: 30px;
-        }
-        .bg-primary .container .nata {
-      	  margin-right: 50px;
-      	  margin-bottom: 50px;
-      	  height: auto;
-      	  width: auto;
-        } 
-      }
-      .skills {
-        margin: 0;
-        padding: 50px 100px 90px 100px;
-        text-align: center;
-        width: auto;
-        background-color: white;
-      }
-      .skills .header .section-heading {
-        font-family: 'Abril Fatface', cursive;
-        text-align: center;
-        font-size: 60px;
-      }
-      .skills .container h3{
-        font-family: 'Hammersmith One', sans-serif;
-        font-size: 40px;
-      }
-      .skills .container img{
-        margin-right: 30px;
-      }
-      .primary hr {
-        margin 30px;
-      }
-    
-      .portfolio .container-fluid h2 {
-        text-align: center;
-        color: white;
-        font-family: 'Satisfy', cursive;
-        padding: 25px;
-        font-size: 60px;
-        margin: 0;
-      }
-      .portfolio .container-fluid{
-        background-color: #2626D4;
-      }  
-      .portfolio-box {
-        position: relative;
-        display: block;
-        width: 100%;
-        margin: 0;
-        padding-top: 135px;
-        padding-bottom: 135px;
-      }
-      .portfolio-box .portfolio-box-caption {
-        color: white;
-        opacity: 0;
-        display: block;
-        background: rgba(0, 191, 255, 0.9);
-        position: absolute;
-        bottom: 0;
-        text-align: center;
-        width: 384px;
-        height: 269px;
-        left: 50%;
-        margin-right: -50%;
-        transform: translate(-50%, -50%)
-      }
-      .col-lg-4 img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-      }
-      .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
-        width: 100%;
-        text-align: center;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-      }
-      .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
-      .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-        font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-        padding: 0 15px;
-      }
-      .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-        text-transform: uppercase;
-        font-weight: 600px;
-        font-size: 24px;
-      }
-      .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-        font-size: 18px;
-      }
-      .portfolio-box:hover .portfolio-box-caption {
-        opacity: 1;
-      }
-      .portfolio-box:focus {
-        outline: none;
-      }
-      @media (min-width: 768px) {
-        .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-          font-size: 16px;
-        }
-        .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-          font-size: 22px;
-        }
-      }
-    
-      .bg-dark {
-        background-image: url( 'https://github.com/natarosas/natarosas.github.io/blob/master/Computer-Science-Background-620x471.jpg?raw=true');
-        color: white;
-        text-align: center;
-        margin: 0;
-        padding: 25px 40px 40px 40px;
-      }
-      .bg-dark .containertext-center h2
-      {
-        font-family: 'Amaranth', sans-serif;
-        font-size: 60px;
-        margin-bottom: 20px;
-        text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
-      }
-      .bg-dark .row label {
-        font-family: 'Yantramanav', sans-serif;
-        font-size: 30px;
-        margin: 10px;
-        color: black;
-        font-weight: 25px;
-        text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
-      }
-      #submit_button {
-        height: 40px;
-        width: 100px;
-        margin-top: 20px;
-        text-align: center;
-        color: black;
-        background-color: #b3d9ff;
-        border-color: black;
-        font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-        font-size: 20px;
-      }
-    
-      .btn-primary {
-        color: white;
-        background-color: #1E90FF;
-        border-color: #1E90FF;
-       -webkit-transition: all 0.35s;
-       -moz-transition: all 0.35s;
-        transition: all 0.35s;
-      }
-      .btn-primary .badge {
-        color: #1E90FF;
-        background-color: white;
-      }
-      .btn {
-        font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-        border: none;
-        border-radius: 300px;
-        font-weight: 700;
-        text-transform: uppercase;
-      }
-      .btn-xl {
-        padding: 15px 30px;
-      }
-      ::-moz-selection {
-        color: white;
-        text-shadow: none;
-        background: #1E90FF;
-      }
-      ::selection {
-        color: white;
-        text-shadow: none;
-        background: #1E90FF;
-      }
-      img::selection {
-        color: white;
-        background: transparent;
-      }
-      img::-moz-selection {
-        color: white;
-        background: transparent;
-      }
-      body {
-      webkit-tap-highlight-color: #1E90FF;
-      }
-    </style>
   </head>
 
   <body id="page-top">
 	  <header>
       <div class="header-content">
         <div class="header-content-inner">
-          <h1 id="homeHeading">Natalia Monroy Rosas</h1>
-          <hr>
+          <h1 id="homeHeading">NATALIA ROSAS</h1>
+          <h2>Creative Developer</h2>
           <br>
-          <h2>Full Stack Web Developer</h2>
-          <br><br>
-          <a href="#about" class="btn btn-primary btn-xl page-scroll">Start</a>
         </div>
       </div>
     </header>
 
     <section class="bg-primary" id="about">
       <div class="container">
-        <img class="nata" src="https://github.com/natarosas/natarosas.github.io/blob/master/natt.png?raw=true">
-        <h2>Hi!</h2>
-        <h4>I'm a passionate woman for Computer Programming and Neuroscience from Bogotá, Colombia </h4>
+        <img class="nata" src="https://github.com/natarosas/natarosas.github.io/blob/master/newcirclepic.gif?raw=true">
+        <h2>Hello!</h2>
+        <h4>I'm a passionate woman for Computer Science and Aritficial Intelligence from Bogotá, Colombia </h4>
         <p>I love programming and I take it as an art, that's why I dream with building websites and apps that could be a virtual artwork. <br>  I'm looking to grow personally and professionally and I want to be involved in problem solving projects and join an amazing team.<br></p>
-        <div class="drawnings">
+      </div>  
+    </section>
+
+    <section class="bg-draw">
+    <div class="drawnings">
           <img class="bulb" src="https://github.com/natarosas/natarosas.github.io/blob/master/light-bulb-vector.png?raw=true">
           <img class="laptop" src="https://github.com/natarosas/natarosas.github.io/blob/master/laptopv.png?raw=true">
           <img class="brain" src="https://github.com/natarosas/natarosas.github.io/blob/master/brain-512.png?raw=true">
         </div>
-      </div>  
     </section>
 
     <section class="skills">
       <div class=header>
-        <h2 class="section-heading">Skills</h2>
+        <h2 class="section-heading">Skills at Glance</h2>
         <hr class="primary">
       </div>
       <div class= container>
-        <h3>HTML5               CSS3              JavaScript</h3>
+        <h3>HTML5 CSS3 JavaScript JQuery Git Linux</h3>
         <img src="https://github.com/natarosas/natarosas.github.io/blob/master/html5.png?raw=true">
         <img src="https://github.com/natarosas/natarosas.github.io/blob/master/css3.png?raw=true">
         <img src="https://github.com/natarosas/natarosas.github.io/blob/master/js.png?raw=true">
-      </div>
-    </section>
-    
-    <section class="portfolio">
-      <div class="container-fluid">
-        <h2>Upcoming Projects</h2>
-        <hr>
-        <div class="row no-gutter popup-gallery">
-          <div class="col-lg-4">
-            <a href="https://github.com/natarosas/natarosas.github.io/blob/master/andress.png?raw=true" class="portfolio-box">
-              <img src="https://github.com/natarosas/natarosas.github.io/blob/master/andress.png?raw=true" class="img-responsive" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Portfolio
-                  </div>
-                  <div class="project-name">
-                    Andrés Lozano Fotografía
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4">
-            <a href="https://github.com/natarosas/natarosas.github.io/blob/master/virtual%20glasss.png?raw=true" class="portfolio-box">
-              <img src="https://github.com/natarosas/natarosas.github.io/blob/master/virtual%20glasss.png?raw=true" class="img-responsive" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Bussiness
-                  </div>
-                  <div class="project-name">
-                    Virtual Glass
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="col-lg-4">
-            <a href="https://github.com/natarosas/natarosas.github.io/blob/master/arvejass.png?raw=true" class="portfolio-box">
-              <img src="https://github.com/natarosas/natarosas.github.io/blob/master/arvejass.png?raw=true" class="img-responsive" alt="">
-              <div class="portfolio-box-caption">
-                <div class="portfolio-box-caption-content">
-                  <div class="project-category text-faded">
-                    Bussiness
-                  </div>
-                  <div class="project-name">
-                    Arvina
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
+        <img src="https://github.com/natarosas/natarosas.github.io/blob/master/jquery-logo-vector.jpg?raw=true">
+        <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png">
       </div>
     </section>
 
-    <aside class="bg-dark">
-      <div class="containertext-center">
-        <h2>Contact</h2>
-      </div>
-      <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-	      <div class="row">
-		      <label for="name">Your name:</label><br />
-		      <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-	      </div>
-	    <div class="row">
-		    <label for="email">Your email:</label><br />
-		    <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-	    </div>
-	    <div class="row">
-		    <label for="message">Your message:</label><br />
-		    <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
-	    </div>
-	      <input id="submit_button" type="submit" value="Submit" />
-      </form>			
-    </aside>
+    <section class="bg-draw1">
+    <div class="drawnings">
+          <img class="bulb" src="https://github.com/natarosas/natarosas.github.io/blob/master/light-bulb-vector.png?raw=true">
+          <img class="laptop" src="https://github.com/natarosas/natarosas.github.io/blob/master/laptopv.png?raw=true">
+          <img class="brain" src="https://github.com/natarosas/natarosas.github.io/blob/master/brain-512.png?raw=true">
+        </div>
+    </section>
+    
+    <section>
+    	<div id="workExperience" class="gray">
+      		<h2>Work Experience</h2>
+    	</div>
+    </section>
+
+
+    <section class="portfolio">
+      	<div class="container-fluid">
+        	<h2>Upcoming Projects</h2>
+        	<div class="projects">
+            	<div class="project1">
+     				<img src="https://github.com/natarosas/natarosas.github.io/blob/master/andress.png?raw=true" class="img-responsive" alt="">
+              		<div class="portfolio-box-caption">
+              			<div class="project-category">
+              	   			Portfolio
+                  		</div>
+                  		<div class="project-name">
+                    		Andres Lozano Fotografía
+             			</div>
+             		</div>
+            	</div>
+            	<div class="project2">
+             		<img src="https://github.com/natarosas/natarosas.github.io/blob/master/virtual%20glasss.png?raw=true" class="img-responsive" alt="">
+              		<div class="portfolio-box-caption">
+              			<div class="project-category">
+              	   			Business
+                  		</div>
+                  		<div class="project-name">
+                    		Virtual Glass
+             			</div>
+             		</div>
+            	</div>
+            	<div class="project3">
+             		<img src="https://github.com/natarosas/natarosas.github.io/blob/master/arvejass.png?raw=true" class="img-responsive" alt="">
+              		<div class="portfolio-box-caption">
+              			<div class="project-category">
+              	   			Business
+                  		</div>
+                  		<div class="project-name">
+                    		Arvina
+             			</div>
+             		</div>
+            	</div>
+        	</div>
+    	</div>
+    </section>
+
+    <div id="education">
+      <h2>Education</h2>
+      	<div id="schools">
+       	<h3>Schools</h3>
+       	    <div class="sc-1">
+				<a href="http://www.uniandes.edu.co">Universidad de los Andes</a>
+				<h5> Bogotá, Colombia				Jan/2014 - May/2016</h5>
+            	<p> Computer Engenieering and Physics (BS)</p>
+  			</div>
+  			<br>
+  			<br>
+  			<div class="sc-2">
+  				<a href="http://www.makeitreal.camp">Make It Real</a>
+				<h5> Bogotá, Colombia				Jul/2016 -  Present</h5>
+            	<p> Front End Developer</p>
+            </div>
+        </div>
+        <div id="online">
+        <h3>Online Courses</h3>
+        	<div class="oc-1">
+        		<a href="https://www.udacity.com/course/javascript-basics--ud804">JavaScript Basics</a>
+        		<h5>Udacity</h5>
+        		<p>Sept/2016</p>
+        	</div>
+        	<div class="oc-2">
+        		<a href="https://www.coursera.org/learn/learninghowtolearn">Learning How to Learn</a>
+        		<h5>Coursera - University of California San Diego</h5>
+        		<p>Sept/2016</p>
+        	</div>
+        	<div class="oc-3">
+        		<a href="https://www.udacity.com/course/linux-command-line-basics--ud595">Linux Command Basics</a>
+        		<h5>Udacity</h5>
+        		<p>Aug/2016</p>
+        	</div>
+        	<div class="oc-4">
+        		<a href="https://www.udacity.com/course/how-to-use-git-and-github--ud775">How To Use Git and GitHub</a>
+        		<h5>Udacity</h5>
+        		<p>Aug/2016</p>
+        	</div>
+        	<div class="oc-5">
+        		<a href="https://www.edx.org/course/introduction-computer-science-harvardx-cs50x">Introduction to Computer Science</a>
+        		<h5>edX - Harvard University</h5>
+        		<p>2015 - 2016</p>
+        	</div>
+        </div>
+    </div>
+
+    <div id="lets-connect">
+        <h2>Let's Connect</h2>
+        <a href="https://github.com/natarosas?tab=repositories"><img src="https://cdn0.iconfinder.com/data/icons/social-set-2/512/UberCons_SocialPack_GitHub_Cat-512.png" class="img1"></a>
+        <a href="https://www.linkedin.com/in/natalia-monroy-rosas-3a061a123?trk=nav_responsive_tab_profile"><img src="https://www.seeklogo.net/wp-content/uploads/2012/03/linkedin-icon-logo-vector-200x200.png" class="img2"></a>
+        <a href="https://www.facebook.com/nathalia.rosas"><img src="https://www.seeklogo.net/wp-content/uploads/2013/11/facebook-flat-vector-logo-400x400.png" class="img3"></a>
+        <p>Send me an e-mail to: <u>nataliarosas1010@gmail.com</u></p>
+    </div>
+
+    <script src="js/jQuery.js"></script>
+  	<script src="js/helper.js"></script>
+  	<script src="js/resumeBuilder.js"></script>
+
   </body>
-  
 </html>

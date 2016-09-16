@@ -1,0 +1,343 @@
+body {
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  max-width: 100%;
+  webkit-tap-highlight-color: #1E90FF;
+  }
+
+header {
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  background-image: url('https://66.media.tumblr.com/cb9215215229936c9ecf1f21f2003b22/tumblr_noouxzuWT01smml3lo1_500.gif');
+  margin: 0;
+  padding: 40px 30px 70px 30px;
+  }
+header .header-content .header-content-inner h1{
+  color: #0000ff;
+  text-align: center; 
+  margin: 0;       
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800px;
+  font-size: 45px;
+  }
+header .header-content .header-content-inner h2 {
+  position: relative;
+  margin: 0;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  }
+  @media (min-width: 768px){
+    header {
+            padding-top: 100px;
+            padding-bottom: 390px;
+            margin: 0px;
+        }
+    header .header-content .header-content-inner {
+      margin-left: auto;
+      margin-right: auto;
+      }
+    header .header-content .header-content-inner h1 {
+      font-size: 70px;
+      }
+    header .header-content .header-content-inner h2 {
+      font-size: 37px;
+      }
+    }
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  }
+
+.bg-primary {
+  position: relative;
+  background-color: #1E90FF;
+  margin: auto;
+  padding: 20px;
+  width: auto;
+  height: auto;
+  }
+.bg-primary h2 {
+  font-size: 70px;
+  margin: 10px;
+  color: white;
+  }
+.bg-primary h4 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  }
+.bg-primary .container .nata {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  height: 300px;
+  width: 200px;
+  }
+.bg-primary p {
+  font-family: 'Alegreya Sans', sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 14px;
+  margin-bottom: 23px;
+  } 
+.bg-primary .container .drawnings img {
+  align-content: center;
+  height: 40px;
+  width: 40px;
+  margin-right: 12px;
+  }
+    @media (min-width: 768px) {
+      .bg-primary {
+        height: auto;
+        padding: 30px;
+        }
+      .bg-primary h2 {
+        font-size: 63px;
+        }
+      .bg-primary p {
+        font-size: 24px;
+        }
+      .bg-primary h4 {
+        font-size: 27px;
+        }
+      .bg-primary .container .nata {
+      	margin-right: 50px;
+      	margin-top: 55px;
+      	margin-bottom: 50px;
+      	height: auto;
+      	width: auto;
+        } 
+      }
+
+.bg-draw {
+  width: 100%;
+  height: 90px;
+  background-color: white;
+  align-content: center;
+  text-align: center;
+  padding: 3px;
+  margin: 0;
+  }
+.bg-draw img {
+  height: 85px;
+  width: 85px;
+  }
+
+.skills {
+  margin: 0;
+  padding: 7px 100px 20px 100px;
+  text-align: center;
+  width: auto;
+  background-image: url("https://66.media.tumblr.com/3820a997449e2097999a3e4e219577b6/tumblr_nfivzidHVP1raievko1_500.gif");
+  }
+.skills .header .section-heading {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  }
+.skills .container h3 {
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 40px;
+  color: #87CEEB;
+  }
+.skills .container img {
+  height: 60px; 
+  width: 60px;
+  margin: 30px;
+  }
+
+.bg-draw1 {
+  height: 90px;
+  background-color: blue;
+  align-content: center;
+  text-align: center;
+  padding: 3px;
+  }
+.bg-draw1 img {
+  height: 85px;
+  width: 85px;
+  }
+
+#workExperience {
+  margin-right: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  }
+
+#workExperience h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  font-size: 57px;
+  }
+
+.date-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999;
+  line-height: 16px;
+  float: left;
+  }
+
+.location-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999;
+  line-height: 16px;
+  float: right;
+  }
+
+p, {
+  font-size: 14px;
+  color: #333;
+  line-height: 21px;
+  margin-bottom: 20px;
+  }
+
+a {
+  color: #1199c3;
+  text-decoration: none;
+  margin-top: 10px;
+  display: block;
+  font-size: 20px;
+  }
+.portfolio .container-fluid h2 {
+  text-align: center;
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 55px;
+  padding-top: 30px;
+  }
+.portfolio .container-fluid{
+  background-color: black;
+  height: 500px;
+  margin: 0;
+  }  
+.portfolio .container-fluid .projects {
+  position: static;
+  display: block;
+  width: 100%;
+  margin: 0;
+  }
+.portfolio .container-fluid .projects .project1, 
+.portfolio .container-fluid .projects .project2,
+.portfolio .container-fluid .projects .project3 {
+    float: left;
+    position: relative;
+    margin-left: 50px;
+  }
+.portfolio .portfolio-box-caption {
+  color: white;
+  opacity: 0;
+  display: block;
+  background: rgba(0, 191, 255, 0.9);
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 384px;
+  height: 233px;
+  left: 50%;
+  margin-right: -50%;
+  top: 50%;
+  margin-bottom: -50%;
+  padding-top: 40px;
+  transform: translate(-50%, -50%);
+}
+.portfolio .projects .portfolio-box-caption .project-category,
+.portfolio .projects .portfolio-box-caption .project-name {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  padding: 0 15px;
+}
+.portfolio .projects .portfolio-box-caption .project-category {
+  text-transform: uppercase;
+  font-weight: 600px;
+  font-size: 15px;
+  margin-top: 90px;
+}
+.portfolio .projects .portfolio-box-caption .project-name {
+  font-size: 15px;
+  }
+.portfolio .container-fluid .projects .project1:hover .portfolio-box-caption,
+.portfolio .container-fluid .projects .project2:hover .portfolio-box-caption,
+.portfolio .container-fluid .projects .project3:hover .portfolio-box-caption
+ {
+  opacity: 1;
+  }
+  @media (min-width: 768px) {
+    .portfolio .projects .portfolio-box-caption .project-category {
+      font-size: 18px;
+      }
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+      font-size: 20px;
+      }
+    }
+
+#education {
+  padding: 2% 30px 35px 30px;
+  height: auto;
+  margin-right: 0;
+  }
+#education h2{
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  font-size: 50px;
+  margin: 30px;
+}
+#education h3{
+  font-family: 'Lato', sans-serif;
+  font-size: 35px;
+  color: #87CEEB;
+  margin: 0;
+}
+#online a {
+  float: left;
+  margin-right: 20px;
+  width: 340px;
+  margin-top: 5px;
+}
+h5{
+  font-style: italic;
+  font-size: 15px;
+  color: #999;
+}
+#education p {
+  font-size: 13px;
+  color: #333;
+}
+#schools {
+  float:left;
+  margin-left:  150px;
+  margin-right: 200px;
+  margin-bottom: 130px;
+}
+
+#lets-connect {
+  text-align: center;
+  background-color: black;
+  align-items: center;
+  margin-bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  }
+#lets-connect h2 {
+  margin-top: 15px;
+  font-size: 40px; 
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+#lets-connect img {
+  position: relative;
+  height: 60px; 
+  width: 60px;
+  text-align: center;
+  display: inline-block;
+}
+#lets-connect a {
+  display: inline-block;
+}
+#lets-connect p {
+  color: #D3D3D3;
+}
