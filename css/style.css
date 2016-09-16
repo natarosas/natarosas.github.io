@@ -15,7 +15,7 @@ header {
   padding: 40px 30px 70px 30px;
   }
 header .header-content .header-content-inner h1{
-  color: #0000ff;
+  color: #ADD8E6;
   text-align: center; 
   margin: 0;       
   font-family: 'Roboto', sans-serif;
@@ -54,7 +54,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .bg-primary {
   position: relative;
-  background-color: #1E90FF;
+  background-color: #ADD8E6;
   margin: auto;
   padding: 20px;
   width: auto;
@@ -152,7 +152,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .bg-draw1 {
   height: 90px;
-  background-color: blue;
+  background-color: #ADD8E6;
   align-content: center;
   text-align: center;
   padding: 3px;
@@ -203,6 +203,7 @@ a {
   margin-top: 10px;
   display: block;
   font-size: 20px;
+  text-decoration: underline;
   }
 .portfolio .container-fluid h2 {
   text-align: center;
