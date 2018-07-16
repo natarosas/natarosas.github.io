@@ -1,10 +1,19 @@
 var work = { 
 	"jobs": [
+	{
+        "employer":  "Teleperformance",
+        "title": "Agent",
+        "location": "Bogotá, Colombia",
+        "dates": "Jun/2017 - Currently",
+        "description": "Monitoring each messaging service to verify its effectiveness and quality." + "<br>" + 
+        "Management and coordination of motorized staff." + "<br>" + "Customer service on telephone at night shift." + "<br>" + 
+        "Scheduling and assignment of delivery routes."
+      },
       {
         "employer":  "Mensajeros Urbanos",
         "title": "Operations Manager",
         "location": "Bogotá, Colombia",
-        "dates": "Oct/2015 - Jan/2016",
+        "dates": "Oct/2015 - Apr/2016",
         "description": "Monitoring each messaging service to verify its effectiveness and quality." + "<br>" + 
         "Management and coordination of motorized staff." + "<br>" + "Customer service on telephone at night shift." + "<br>" + 
         "Scheduling and assignment of delivery routes."
